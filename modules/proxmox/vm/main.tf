@@ -59,8 +59,8 @@ resource "proxmox_virtual_environment_vm" "vm" {
 
     ip_config {
       ipv4 {
-        address = "dhcp" #"192.168.1.10/24"
-        gateway = "192.168.1.1"
+        address = var.ip #"192.168.1.10/24"
+        # gateway = "192.168.1.1"
       }
   
     }
