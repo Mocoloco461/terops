@@ -1,6 +1,4 @@
-module "test_vm" {
-  source = "./modules/proxmox/vm" 
-  vm_id = 1000
-  tags = ["lab"]
-  
+module "vm_proxmox_infrastructure" {
+  source = "./infra/vm"
 }
+

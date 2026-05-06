@@ -11,9 +11,9 @@ variable "WORKER_COUNT" {
 }
 
 variable "TURN_ON" {
-  type = string
+  type      = string
   sensitive = false
-  
+
 }
 
 
