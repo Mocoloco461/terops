@@ -5,7 +5,7 @@ a gitops method for terraform to mange all the Iac.
 
 
 task:
-- [ ] remote set up with s3 aws
+- [x] remote set up with s3 aws
 - [ ] env
 - [ ] actions paln and apply
 - [ ] cloud init!!!!!
