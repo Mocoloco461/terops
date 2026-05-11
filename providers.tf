@@ -1,6 +1,6 @@
 terraform {
 
-    backend "s3" {
+  backend "s3" {
     bucket       = "homelab-terops-state"
     key          = "dev/terraform.tfstate"
     region       = "us-east-1"
