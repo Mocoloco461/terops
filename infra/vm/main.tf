@@ -17,13 +17,13 @@
 
 #   vm_replica = 1
 
-#   vm_name  = "exmp"
-#   vm_id = 120
-#   tags  = ["demo machine"]
+#   vm_name = "exmp"
+#   vm_id   = 120
+#   tags    = ["demo machine"]
 
-#   cores     = 4
-#   memory = 4096
-#   storage      = 30
+#   cores   = 4
+#   memory  = 4096
+#   storage = 30
 
 #   ip = "dhcpע"
 
@@ -32,8 +32,8 @@
 # the minimum is vm_id for the machine.
 
 module "open_claw" {
-    source = "../../modules/proxmox/vm"
-    vm_id = 42001
-    vm_name = "open-claw"
+  source  = "../../modules/proxmox/vm"
+  vm_id   = 42001
+  vm_name = "open-claw"
 }
 
