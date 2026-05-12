@@ -35,5 +35,7 @@ module "open_claw" {
   source  = "../../modules/proxmox/vm"
   vm_id   = 42001
   vm_name = "open-claw"
+
+  memory = 8192
 }
 
